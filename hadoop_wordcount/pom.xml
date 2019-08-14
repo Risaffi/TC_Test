@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   
   <dependencies>
-                <!-- JDK Tools22 -->
+                <!-- JDK Tools -->
                 <dependency>
                         <groupId>jdk.tools</groupId>
                         <artifactId>jdk.tools</artifactId>
@@ -26,5 +26,15 @@
                         <version>2.7.1</version>
                 </dependency>
         </dependencies>
+
+<distributionManagement>
+  <repository>
+    <uniqueVersion>false</uniqueVersion>
+    <id>maven_ci_repo</id>
+    <name>Maven CI repo</name>
+    <url>file:///root/TeamCityMavenDeploy</url>
+    <layout>default</layout>
+  </repository>
+</distributionManagement>
   
 </project>
