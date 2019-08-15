@@ -36,5 +36,10 @@
     <layout>default</layout>
   </repository>
 </distributionManagement>
+
+<packaging>jar</packaging>
+ <build>
+   <finalName>WordCount</finalName>
+</build>
   
 </project>
